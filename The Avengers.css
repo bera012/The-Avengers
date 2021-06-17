@@ -1,0 +1,175 @@
+body{
+    background: url(Resimler/minor-planets.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+    background-attachment: fixed;
+}
+section{
+    margin: 30px;
+    border: 5px solid black;
+    border-radius: 20px;
+}
+.container .row .col-md-5 img{
+    width: 100px;
+    height: 100px;
+}
+/*Bölüm 1*/
+.bolum1{
+    height: 100vh;
+    background-image: url(Resimler/avenger.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.navbar{
+    position: absolute;
+    top: 10px;
+    width: 90%;
+    z-index: 999;
+}
+.navbar .ad p{
+    font-weight: 600;
+}
+.navbar .orange{
+    color: orange;
+}
+.navbar .orange.blackwidow:hover{
+    color: rgba(246,161,23,0.6);
+}
+.bolum1 .navbar span img{
+    height: 100px;
+    width: 100px;
+}
+.bolum1 .container .row{
+    height: 79vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+@media only screen and (max-width:1200px){
+.navbar{
+    position: absolute;
+    top: 10px;
+    width: 90%;
+    z-index: 999;
+}
+}
+/*Bölüm 2*/
+.bolum2{
+    height: 100vh;
+    background-image: url(Resimler/chris%20evans.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+}
+.bolum2 .container .row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bolum2 .container .row .col-md-5 p{
+    font-weight: 500;
+}
+@media only screen and (max-width: 765px){
+    .bolum2 .yazi{
+        background: rgba(0,0,0,0.6);
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .bolum2 .yazi p, h2{
+        color: white;
+    }
+}
+/*Bölüm 3*/
+.bolum3{
+    height: 100vh;
+    background-image: url(Resimler/Robert%20downey%20jr3.jpg);
+    background-size: cover;
+    background-position: 50% 0%;
+    position: relative;
+}
+.bolum3 .container .row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bolum3 .container .row .col-md-5 p{
+    font-weight: 500;
+}
+/*Bölüm 4*/
+.bolum4{
+    height: 100vh;
+    background-image: url(Resimler/Scarlett%20Johanson.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+}
+.bolum4 .container .row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bolum4 .container .row .col-md-5 p{
+    font-weight: 500;
+}
+@media only screen and (max-width: 765px){
+    .bolum4 .yazi{
+        background: rgba(0,0,0,0.6);
+        border-radius: 15px;
+        padding: 10px;
+    }
+    .bolum4 .yazi p, h2{
+        color: white;
+    }
+}
+/*Bölüm 5*/
+.bolum5{
+    height: 100vh;
+    background-image: url(Resimler/mark%20buffalo.png);
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+}
+.bolum5 .container .row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bolum5 .container .row .col-md-5 p{
+    font-weight: 500;
+}
+.bolum5 .container .row .col-md-5 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+/*Bölüm 6*/
+.bolum6{
+    height: 100vh;
+    background-image: url(Resimler/Chris%20hemsworth.jpg);
+    background-size: cover;
+    background-position: 50% 0;
+    position: relative;
+}
+.bolum6 .container .row{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.bolum6 .container .row .col-md-5 p{
+    font-weight: 500;
+}
